@@ -1,1 +1,31 @@
 Hello World!!!
+
+step by step
+
+
+git init
+
+git add files <= 파일 추가
+
+
+파일을 리포지터리에 commit 단계
+git remote add origin 원격서버 저장소 path를 입력후 ex) git@github.com:wowzzangga/my_test.git
+git push origin master 원격서버와의 동기화 
+
+push. 로컬 인덱스 및 오브젝트 변경 정보를 사용하여 원격 저장소를 업데이트한다. 
+
+
+git은 local repository가 있기 때문에, git 에서의 commit은 local repository에 저장되는것을 의미하고, 이걸 remote repository에 저장하려면 push를 해주어야 한다.
+
+SVN의 커미트는 "이 변경 사항을 중앙 서버에 push하는 것"
+
+
+그럴때는 git clone을 사용하면 저장소 소스코드를 그대로 (svn식으로 말하면)checkout 받을수 있다.
+
+그럼 이제 다시 A가 B가 수정한 소스코드의 변경내역이 반영된, 원격 저장소의 최신 변경내역을 적용하려면, svn 에서는 svn update를 하면 되었지만, git 에서는 git pull을 사용한다.
+
+git pull origin master
+
+
+
+
