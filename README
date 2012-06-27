@@ -19,6 +19,8 @@ git은 local repository가 있기 때문에, git 에서의 commit은 local repos
 
 SVN의 커미트는 "이 변경 사항을 중앙 서버에 push하는 것"
 
+(*  master는 git 에서의 master branch를 말한다. svn으로 따지자면 trunk개념이랄까)
+
 
 그럴때는 git clone을 사용하면 저장소 소스코드를 그대로 (svn식으로 말하면)checkout 받을수 있다.
 
@@ -26,6 +28,7 @@ SVN의 커미트는 "이 변경 사항을 중앙 서버에 push하는 것"
 
 git pull origin master
 
+master : "master" 브랜치는 복사해온 저장소 내의 HEAD의 복사본이다.
 
-
+origin : "origin" 이라는 이름은 단지 git가 복사해 온 저장소를 가리키기 위해 기본적으로 사용하는 이름이다.
 
